@@ -40,6 +40,9 @@ while True:
         print("Computer choice is ", computer_choice)
         user_score += 1
         print("You Won! *_*")
+    elif user_choice == computer_choice:
+        print("Computer choice is ", computer_choice)
+        print("Draw! ")
     else:
         print("Computer choice is ", computer_choice)
         computer_score += 1
